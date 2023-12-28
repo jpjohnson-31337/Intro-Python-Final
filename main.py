@@ -389,7 +389,7 @@ def Analysis(tickers):
 #Uses Search API to add tickers to list
 def getTickers(tickers):
     #API Key
-    apiKey = "K56ASNEMVXJY9N9K"
+    apiKey = "PUT KEY HERE"
     
     #Have checker variable for loops
     check = True
@@ -487,7 +487,7 @@ def getTickers(tickers):
 #Uses API to get prices for each ticker    
 def getPriceData(tickers,start_date,end_date):
     #API Key
-    apiKey = "K56ASNEMVXJY9N9K"
+    apiKey = "PUT KEY HERE"
     
     #Runs through all tickers selected and gets their price data from the range of dates indicated
     for ticker in tickers:
